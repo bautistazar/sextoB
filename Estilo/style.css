@@ -1,0 +1,56 @@
+body { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #eeddb7;
+}
+
+.menu-inicial {
+    list-style: none;
+    padding: 0;
+    background-color: chocolate;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu-inicial li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu-inicial li {
+    display: inline-block;
+    text-align: right;
+}
+
+.menu-inicial li a :hover{
+    background-color: aqua;
+}
+
+.titulo-principal {
+  
+    font-family: Cunia;
+    
+}
+.menu-inicial li a img {
+    width: 20px;
+} 
+
+.contenido-principal {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding:  60px 650px 200px 100px;
+    text-align: justify;
+    z-index: 1;
+
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.encima{
+    z-index: 1;
+}
